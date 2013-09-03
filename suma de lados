@@ -1,0 +1,26 @@
+// Prog0.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+using namespace std;
+
+
+int main ()
+
+{  
+	int lado1,lado2,lado3;
+	float s,AREA;
+	cout<< "ingree lado1:";
+	cin>>lado1;
+	cout<<"ingrese lado2:";
+	cin>> lado2;
+	cout<<"ingrese lado3:";
+	cin>>lado3;
+	s=(lado1+lado2+lado3)/2.0;
+	AREA=(s*(s-lado1)*(s-lado2)*(s-lado3));
+	cout<<AREA;
+	getch();
+	return 0;
+}
