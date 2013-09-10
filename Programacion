@@ -1,0 +1,18 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+void main()
+{
+	float A,B,C,D;
+cout<<"ingrese la ganancia de la primera semana ";
+cin>> A;
+cout<<"ingrese la ganancia de la segunda semana ";
+cin>> B;
+cout<<"ingrese la ganancia de la tercera semana ";
+cin>> C;
+D=(A+B+C)*4.0;
+cout<<"La ganacia total en 4 semanas es: "<<D;
+getch ();
+}
